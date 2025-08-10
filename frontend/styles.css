@@ -1,0 +1,60 @@
+body {
+  background-color: #fff9db;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card h2 {
+  font-size: 1.25rem;
+  margin-bottom: 12px;
+}
+
+.button {
+  background-color: #facc15; /* Yellow */
+  border: none;
+  color: white;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  align-self: flex-start;
+}
+
+.button:hover {
+  background-color: #ca8a04;
+}
+
+.message {
+  margin-top: 16px;
+  font-size: 1.1rem;
+  font-weight: 600;
+  min-height: 24px;
+}
+
+.count {
+  margin: 0.25rem 0;
+  font-size: 0.9rem;
+}
